@@ -575,7 +575,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenios.SwiftyExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyExtension.app/SwiftyExtension";
 			};
 			name = Debug;
@@ -590,7 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenios.SwiftyExtensionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyExtension.app/SwiftyExtension";
 			};
 			name = Release;
@@ -604,7 +604,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenios.SwiftyExtensionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = SwiftyExtension;
 			};
 			name = Debug;
@@ -618,7 +618,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenios.SwiftyExtensionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = SwiftyExtension;
 			};
 			name = Release;
