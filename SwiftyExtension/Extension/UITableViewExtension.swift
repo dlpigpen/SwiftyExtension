@@ -52,7 +52,7 @@ public extension UITableView{
     }
     
     func initialize(delegate: AnyObject,
-                    separatorStyle: UITableViewCellSeparatorStyle = .none,
+                    separatorStyle: UITableViewCell.SeparatorStyle = .none,
                     showsVerticalScrollIndicator: Bool = false,
                     automaticRowHeight: Bool = false,
                     contentInset: UIEdgeInsets = .zero){
@@ -68,7 +68,7 @@ public extension UITableView{
         
         if automaticRowHeight{
             self.estimatedRowHeight = 44
-            self.rowHeight = UITableViewAutomaticDimension
+            self.rowHeight = UITableView.automaticDimension
         }
     }
     

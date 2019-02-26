@@ -22,7 +22,7 @@ class UIAlertManager: NSObject {
                      message: String?=nil,
                      confirmTitle: String = "OK",
                      cancelTitle: String = "Cancel",
-                     preferredStyle: UIAlertControllerStyle = .alert,
+                     preferredStyle: UIAlertController.Style = .alert,
                      from viewController: UIViewController? = nil,
                      completion: ((Bool) -> ())?=nil) {
         
@@ -42,7 +42,7 @@ class UIAlertManager: NSObject {
     func showInfo(title: String? = nil,
                   message: String?=nil,
                   confirmTitle: String = "OK",
-                  preferredStyle: UIAlertControllerStyle = .alert,
+                  preferredStyle: UIAlertController.Style = .alert,
                   from viewController: UIViewController? = nil,
                   completion: (() -> ())?=nil){
         
@@ -60,7 +60,7 @@ class UIAlertManager: NSObject {
                      message: String? = nil,
                      confirmTitle: String = "Yes",
                      cancelTitle: String = "No",
-                     preferredStyle: UIAlertControllerStyle = .alert,
+                     preferredStyle: UIAlertController.Style = .alert,
                      from viewController: UIViewController? = nil,
                      completion: ((Bool) -> Void)?){
         let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)

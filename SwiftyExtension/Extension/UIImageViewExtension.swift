@@ -12,7 +12,7 @@ import UIKit
 public extension UIImageView {
     
     func fillImage(image: UIImage, withColor color: UIColor = UIColor.black, alpha: CGFloat=0.5){
-        let renderImage = image.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+        let renderImage = image.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
         self.alpha = alpha
         self.image = renderImage
         self.tintColor = color

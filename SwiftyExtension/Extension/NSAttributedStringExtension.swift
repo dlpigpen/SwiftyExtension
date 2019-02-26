@@ -23,7 +23,7 @@ public extension NSMutableAttributedString{
         self.addAttribute(key: .foregroundColor, value: color, at: string)
     }
     
-    func addAttribute(key: NSAttributedStringKey, value: Any, at string: String){
+    func addAttribute(key: NSAttributedString.Key, value: Any, at string: String){
         self.addAttribute(key, value: value, range: self.string.rangeOfAString(string: string))
     }
     
