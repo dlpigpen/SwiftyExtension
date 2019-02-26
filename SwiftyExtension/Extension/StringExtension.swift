@@ -165,7 +165,7 @@ public extension String {
      **/
     func underlineText(color: UIColor) -> NSAttributedString{
         let titleString = NSMutableAttributedString(string: self)
-        titleString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: NSMakeRange(0, self.count))
+        titleString.addAttribute(NSAttributedString.Key.underlineStyle, value: NSUnderlineStyle.styleSingle.rawValue, range: NSMakeRange(0, self.count))
         titleString.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: NSMakeRange(0, self.count))
         return titleString
     }
