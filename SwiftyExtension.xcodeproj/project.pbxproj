@@ -18,7 +18,7 @@
 		CB23CCBC1E8227D60009ED38 /* SwiftyExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23CCBB1E8227D60009ED38 /* SwiftyExtensionUITests.swift */; };
 		CB23CCCC1E8228690009ED38 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CB23CCC91E8228690009ED38 /* LICENSE */; };
 		CB23CCCD1E8228690009ED38 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CB23CCCA1E8228690009ED38 /* README.md */; };
-		CB23CCCE1E8228690009ED38 /* SwiftyExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CB23CCCB1E8228690009ED38 /* SwiftyExtension.podspec */; };
+		CB23CCCE1E8228690009ED38 /* SwiftyExtension2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CB23CCCB1E8228690009ED38 /* SwiftyExtension2.podspec */; };
 		CB23CCD31E822C7F0009ED38 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23CCD01E822C7F0009ED38 /* DateExtension.swift */; };
 		CB23CCD41E822C7F0009ED38 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23CCD11E822C7F0009ED38 /* FileManagerExtension.swift */; };
 		CB23CCD51E822C7F0009ED38 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB23CCD21E822C7F0009ED38 /* StringExtension.swift */; };
@@ -75,7 +75,7 @@
 		CB23CCBD1E8227D60009ED38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB23CCC91E8228690009ED38 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB23CCCA1E8228690009ED38 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CB23CCCB1E8228690009ED38 /* SwiftyExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyExtension.podspec; sourceTree = "<group>"; };
+		CB23CCCB1E8228690009ED38 /* SwiftyExtension2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftyExtension2.podspec; sourceTree = "<group>"; };
 		CB23CCD01E822C7F0009ED38 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		CB23CCD11E822C7F0009ED38 /* FileManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		CB23CCD21E822C7F0009ED38 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				CB23CCC91E8228690009ED38 /* LICENSE */,
 				CB23CCCA1E8228690009ED38 /* README.md */,
-				CB23CCCB1E8228690009ED38 /* SwiftyExtension.podspec */,
+				CB23CCCB1E8228690009ED38 /* SwiftyExtension2.podspec */,
 				CB23CC9A1E8227D60009ED38 /* SwiftyExtension */,
 				CB23CCAF1E8227D60009ED38 /* SwiftyExtensionTests */,
 				CB23CCBA1E8227D60009ED38 /* SwiftyExtensionUITests */,
@@ -328,7 +328,7 @@
 				CB23CCA61E8227D60009ED38 /* LaunchScreen.storyboard in Resources */,
 				CB23CCA31E8227D60009ED38 /* Assets.xcassets in Resources */,
 				CB23CCCC1E8228690009ED38 /* LICENSE in Resources */,
-				CB23CCCE1E8228690009ED38 /* SwiftyExtension.podspec in Resources */,
+				CB23CCCE1E8228690009ED38 /* SwiftyExtension2.podspec in Resources */,
 				CB23CCA11E8227D60009ED38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
