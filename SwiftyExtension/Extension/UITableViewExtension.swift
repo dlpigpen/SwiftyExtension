@@ -68,7 +68,7 @@ public extension UITableView{
         
         if automaticRowHeight{
             self.estimatedRowHeight = 44
-            self.rowHeight = UITableViewAutomaticDimension
+            self.rowHeight = UITableView.automaticDimension
         }
     }
     
